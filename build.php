@@ -1,8 +1,8 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
 
-$items_per_account = 6;
-$columns = 3;
+$items_per_account = 1;
+$columns = 1;
 $tz_offset = 6 * 3600;
 
 $instagram = new \InstagramScraper\Instagram();
